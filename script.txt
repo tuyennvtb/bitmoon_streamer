@@ -1,0 +1,25 @@
+webapp   ]f5fFC37{%:Ym7/,
+automation_admin Sr7w?hSnAy!-G*^a
+admin_user  Gx%6Y^2m++ea+DGk
+
+1.  git checkout -b server origin/server
+
+=============
+https://github.com/0rpc/zerorpc-node/issues/35
+sudo yum install zeromq
+sudo yum install zeromq-devel
+npm install -g --unsafe-perm=true bitcore
+bitcore create bitcoin
+cd bitcoin
+bitcore install insight-api
+bitcore install insight-ui
+bitcore start
+
+npm install -g --unsafe-perm=true litecore-node
+litecore-node create litecoin
+cd litecoin
+litecore-node install insight-lite-api
+litecore-node install insight-lite-ui
+litecore-node start
+
+GCC version 4.8.5
